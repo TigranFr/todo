@@ -1,0 +1,35 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    margin: 30px 0;
+    width: 100%;
+}
+
+.todoInput{
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;  
+    border: 2px solid black;  
+    height: 45px;
+    padding-left: 20px;
+}
+
+.addButton{
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    background-color: black;
+    color: white;
+    width: 65px;
+    height: 51px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.6s;
+}
+
+.addButton:hover{
+    transform: translate(5px,5px) scale(1.1);
+    background-color: rgb(42, 42, 42);
+}

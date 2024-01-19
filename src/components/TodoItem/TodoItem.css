@@ -1,0 +1,33 @@
+.todoItemDiv{
+    width: 100%;
+}
+.todoItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.todoItem span{
+    margin: 0 10px;
+}
+
+.deleteButton{
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.6s;
+    width: 20px;
+    height: 20px;
+}
+
+.deleteButton:hover{
+    transform: translate(3px,3px) scale(1.1);
+    background-color: rgb(42, 42, 42) ;
+}
